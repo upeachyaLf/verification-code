@@ -1,0 +1,72 @@
+#partitioned {
+  padding-left: 15px;
+  letter-spacing: 42px;
+  border: 0;
+  background-image: linear-gradient(to left, black 70%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom;
+  background-size: 54px 1px;
+  background-repeat: repeat-x;
+  background-position-x: 35px;
+  width: 350px;
+  font-size: 20px;
+}
+
+input#partitioned:focus-visible {
+  outline: none;
+}
+
+#divInner{
+  left: 0;
+  position: sticky;
+}
+
+#divOuter{
+  width: 306px; 
+  overflow: hidden;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+.btn-default {
+  margin-top: 25px;
+  border: 0;
+  background: black;
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.error-msg {
+  color: brown;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
